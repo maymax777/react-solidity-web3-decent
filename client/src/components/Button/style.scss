@@ -1,0 +1,21 @@
+.btn {
+  padding: 12px 24px;
+  margin: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &-primary {
+    background-color: #337ab7;
+    color: white;
+    border: 1px solid #337ab7;
+  }
+
+  &:hover {
+    background-color: #135aa7;    
+  }
+
+  &:active {
+    background-color: #139aa7;
+  }
+}
